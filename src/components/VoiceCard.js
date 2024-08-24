@@ -1,29 +1,34 @@
 import React, { useState } from 'react';
 import AudioPlayer from './AudioPlayer';
 import DownvoteModal from './DownvoteModal';
-import { sendUpvote, sendDownvote } from '../services/apiService';
 import { toast } from 'react-toastify';
+import { sendUpvote, sendDownvote } from '../services/apiService';
 
 const VoiceCard = ({ voice }) => {
   const [showModal, setShowModal] = useState(false);
 
   const handleUpvote = async () => {
     try {
+      var loading_toast = toast.loading('Sending vote...');
       await sendUpvote(voice.name);
-      toast.success('Upvote sent successfully!');
+      toast.dismiss(loading_toast)
+      toast.success(`Upvote sent for voice: ${voice.name}`);
     } catch (error) {
-        console.log(error);
-        
-      toast.error('Failed to send upvote.');
+      console.error('Error sending upvote:', error);
+      toast.success('Failed to send upvote. Please try again.');
     }
   };
 
   const handleDownvote = async (reasons) => {
     try {
+      var loading_toast = toast.loading('Sending vote...');
       await sendDownvote(voice.name, reasons.join(', '));
-      toast.success('Downvote sent successfully!');
+      toast.dismiss(loading_toast)
+
+      toast.success(`Downvote sent for voice: ${voice.name}`);
     } catch (error) {
-      toast.error('Failed to send downvote.');
+      console.error('Error sending downvote:', error);
+      toast.success('Failed to send downvote. Please try again.');
     }
   };
 
