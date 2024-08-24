@@ -1,0 +1,265 @@
+{
+    "voices": [
+        {
+            "name": "Archbishop Benedictus Greetings",
+            "folder": "./voices/ArchbishopBenedictusGreetings/"
+        },
+        {
+            "name": "Baron Revilgaz Greetings",
+            "folder": "./voices/BaronRevilgazGreetings/"
+        },
+        {
+            "name": "B_ Jr Apothecary Holland(1)",
+            "folder": "./voices/B_JrApothecaryHolland(1)/"
+        },
+        {
+            "name": "B_ Witch Doctor Bombay01",
+            "folder": "./voices/B_WitchDoctorBombay01/"
+        },
+        {
+            "name": "Cairne Bloodhoof Greetings",
+            "folder": "./voices/CairneBloodhoofGreetings/"
+        },
+        {
+            "name": "Dwarf Female Guard",
+            "folder": "./voices/DwarfFemaleGuard/"
+        },
+        {
+            "name": "Dwarf Female Maternal",
+            "folder": "./voices/DwarfFemaleMaternal/"
+        },
+        {
+            "name": "Dwarf Female Young",
+            "folder": "./voices/DwarfFemaleYoung/"
+        },
+        {
+            "name": "Dwarf Male Grim",
+            "folder": "./voices/DwarfMaleGrim/"
+        },
+        {
+            "name": "Dwarf Male Guard",
+            "folder": "./voices/DwarfMaleGuard/"
+        },
+        {
+            "name": "Dwarf Male Standard",
+            "folder": "./voices/DwarfMaleStandard/"
+        },
+        {
+            "name": "Fandral Staghelm Greetings",
+            "folder": "./voices/FandralStaghelmGreetings/"
+        },
+        {
+            "name": "Gazlowe Greetings",
+            "folder": "./voices/GazloweGreetings/"
+        },
+        {
+            "name": "Gnome Female Happy",
+            "folder": "./voices/GnomeFemaleHappy/"
+        },
+        {
+            "name": "Gnome Female Nerdy",
+            "folder": "./voices/GnomeFemaleNerdy/"
+        },
+        {
+            "name": "Gnome Female Standard",
+            "folder": "./voices/GnomeFemaleStandard/"
+        },
+        {
+            "name": "Gnome Male Standard",
+            "folder": "./voices/GnomeMaleStandard/"
+        },
+        {
+            "name": "Gnome Male Young",
+            "folder": "./voices/GnomeMaleYoung/"
+        },
+        {
+            "name": "Gnome Male Zany",
+            "folder": "./voices/GnomeMaleZany/"
+        },
+        {
+            "name": "Goblin Female Zany",
+            "folder": "./voices/GoblinFemaleZany/"
+        },
+        {
+            "name": "Goblin Male Gruff",
+            "folder": "./voices/GoblinMaleGruff/"
+        },
+        {
+            "name": "Goblin Male Guard",
+            "folder": "./voices/GoblinMaleGuard/"
+        },
+        {
+            "name": "Goblin Male Zany",
+            "folder": "./voices/GoblinMaleZany/"
+        },
+        {
+            "name": "High Tinker Mekkatorque Greetings",
+            "folder": "./voices/HighTinkerMekkatorqueGreetings/"
+        },
+        {
+            "name": "Human Female Official",
+            "folder": "./voices/HumanFemaleOfficial/"
+        },
+        {
+            "name": "Human Female Standard",
+            "folder": "./voices/HumanFemaleStandard/"
+        },
+        {
+            "name": "Human Female Warrior",
+            "folder": "./voices/HumanFemaleWarrior/"
+        },
+        {
+            "name": "Human Male Official",
+            "folder": "./voices/HumanMaleOfficial/"
+        },
+        {
+            "name": "Human Male Standard",
+            "folder": "./voices/HumanMaleStandard/"
+        },
+        {
+            "name": "Human Male Warrior",
+            "folder": "./voices/HumanMaleWarrior/"
+        },
+        {
+            "name": "Jaina Proudmoore Greetings",
+            "folder": "./voices/JainaProudmooreGreetings/"
+        },
+        {
+            "name": "King Magni Bronzebeard Greetings",
+            "folder": "./voices/KingMagniBronzebeardGreetings/"
+        },
+        {
+            "name": "Lantigah",
+            "folder": "./voices/Lantigah/"
+        },
+        {
+            "name": "Magatha Grimtotem Greetings",
+            "folder": "./voices/MagathaGrimtotemGreetings/"
+        },
+        {
+            "name": "Night Elf Female Priestess",
+            "folder": "./voices/NightElfFemalePriestess/"
+        },
+        {
+            "name": "Night Elf Female Sentinel",
+            "folder": "./voices/NightElfFemaleSentinel/"
+        },
+        {
+            "name": "Night Elf Female Standard",
+            "folder": "./voices/NightElfFemaleStandard/"
+        },
+        {
+            "name": "Night Elf Male Official",
+            "folder": "./voices/NightElfMaleOfficial/"
+        },
+        {
+            "name": "Night Elf Male Standard",
+            "folder": "./voices/NightElfMaleStandard/"
+        },
+        {
+            "name": "Night Elf Male Warrior",
+            "folder": "./voices/NightElfMaleWarrior/"
+        },
+        {
+            "name": "Orc Female Shaman",
+            "folder": "./voices/OrcFemaleShaman/"
+        },
+        {
+            "name": "Orc Female Standard",
+            "folder": "./voices/OrcFemaleStandard/"
+        },
+        {
+            "name": "Orc Female Warrior",
+            "folder": "./voices/OrcFemaleWarrior/"
+        },
+        {
+            "name": "Orc Male Guard",
+            "folder": "./voices/OrcMaleGuard/"
+        },
+        {
+            "name": "Orc Male Shady",
+            "folder": "./voices/OrcMaleShady/"
+        },
+        {
+            "name": "Orc Male Standard",
+            "folder": "./voices/OrcMaleStandard/"
+        },
+        {
+            "name": "Sylvanas Windrunner Greetings",
+            "folder": "./voices/SylvanasWindrunnerGreetings/"
+        },
+        {
+            "name": "Tauren Female Official",
+            "folder": "./voices/TaurenFemaleOfficial/"
+        },
+        {
+            "name": "Tauren Female Shaman",
+            "folder": "./voices/TaurenFemaleShaman/"
+        },
+        {
+            "name": "Tauren Female Standard",
+            "folder": "./voices/TaurenFemaleStandard/"
+        },
+        {
+            "name": "Tauren Male Elder",
+            "folder": "./voices/TaurenMaleElder/"
+        },
+        {
+            "name": "Tauren Male Shaman",
+            "folder": "./voices/TaurenMaleShaman/"
+        },
+        {
+            "name": "Tauren Male Warrior",
+            "folder": "./voices/TaurenMaleWarrior/"
+        },
+        {
+            "name": "Thrall Greetings",
+            "folder": "./voices/ThrallGreetings/"
+        },
+        {
+            "name": "Troll Female Laid Back",
+            "folder": "./voices/TrollFemaleLaidBack/"
+        },
+        {
+            "name": "Troll Female Old",
+            "folder": "./voices/TrollFemaleOld/"
+        },
+        {
+            "name": "Troll Female Standard",
+            "folder": "./voices/TrollFemaleStandard/"
+        },
+        {
+            "name": "Troll Male Dark",
+            "folder": "./voices/TrollMaleDark/"
+        },
+        {
+            "name": "Troll Male Shaman",
+            "folder": "./voices/TrollMaleShaman/"
+        },
+        {
+            "name": "Troll Male Standard",
+            "folder": "./voices/TrollMaleStandard/"
+        },
+        {
+            "name": "Tyrande Whisperwind Greetings",
+            "folder": "./voices/TyrandeWhisperwindGreetings/"
+        },
+        {
+            "name": "Undead Female Magic",
+            "folder": "./voices/UndeadFemaleMagic/"
+        },
+        {
+            "name": "Undead Female Standard",
+            "folder": "./voices/UndeadFemaleStandard/"
+        },
+        {
+            "name": "Undead Female Warrior",
+            "folder": "./voices/UndeadFemaleWarrior/"
+        },
+        {
+            "name": "Undead Player",
+            "folder": "./voices/UndeadPlayer/"
+        }
+    ]
+  }
+  
