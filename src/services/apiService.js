@@ -8,7 +8,7 @@ export const sendUpvote = async (voiceName) => {
     },
     body: JSON.stringify({ voice: voiceName })
   });
-  return response.json();
+  return response;
 };
 
 export const sendDownvote = async (voiceName, reason) => {
@@ -19,5 +19,5 @@ export const sendDownvote = async (voiceName, reason) => {
     },
     body: JSON.stringify({ voice: voiceName, reason })
   });
-  return response.json();
+  return response;
 };

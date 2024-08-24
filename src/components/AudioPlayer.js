@@ -1,17 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const AudioPlayer = ({ folder, sampleCount = 3 }) => {
-  const [samples, setSamples] = useState([]);
+  const [samples, ] = useState(
+    Array.from({ length: sampleCount }, (_, i) => `${folder}${i + 1}.mp3`)
+  );
   const [currentSampleIndex, setCurrentSampleIndex] = useState(0);
-
-  useEffect(() => {
-    // Generar la lista de archivos .ogg basada en el número de samples disponibles
-    const generatedSamples = Array.from(
-      { length: sampleCount },
-      (_, i) => `${folder}${i + 1}.mp3`
-    );
-    setSamples(generatedSamples);
-  }, [folder, sampleCount]);
 
   const nextSample = () => {
     setCurrentSampleIndex((prevIndex) => (prevIndex + 1) % samples.length);
@@ -22,12 +15,17 @@ const AudioPlayer = ({ folder, sampleCount = 3 }) => {
       {samples.length > 0 && (
         <>
           <audio controls src={samples[currentSampleIndex]} />
-          <button onClick={nextSample} className='btn-small-text'>
-          <i class="bi bi-arrow-right-circle-fill"></i>
-          </button>
-          <p>
-            {currentSampleIndex + 1}/{samples.length}
-          </p>
+          <div className="audio-navigation d-flex justify-content-between align-items-center mt-2">
+            <span>
+              {currentSampleIndex + 1}/{samples.length}
+            </span>
+            <button
+              className="btn btn-secondary btn-sm"
+              onClick={nextSample}
+            >
+              Next
+            </button>
+          </div>
         </>
       )}
     </div>
