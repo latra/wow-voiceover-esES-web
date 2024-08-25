@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/wow-webvoices-esES/static/css/main.b3ec9c2f.css",
-    "main.js": "/wow-webvoices-esES/static/js/main.f4cbe0ef.js",
+    "main.js": "/wow-webvoices-esES/static/js/main.c7348bbc.js",
     "static/js/453.18e85a72.chunk.js": "/wow-webvoices-esES/static/js/453.18e85a72.chunk.js",
     "static/media/bootstrap-icons.woff?": "/wow-webvoices-esES/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/wow-webvoices-esES/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/wow-webvoices-esES/index.html",
     "main.b3ec9c2f.css.map": "/wow-webvoices-esES/static/css/main.b3ec9c2f.css.map",
-    "main.f4cbe0ef.js.map": "/wow-webvoices-esES/static/js/main.f4cbe0ef.js.map",
+    "main.c7348bbc.js.map": "/wow-webvoices-esES/static/js/main.c7348bbc.js.map",
     "453.18e85a72.chunk.js.map": "/wow-webvoices-esES/static/js/453.18e85a72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3ec9c2f.css",
-    "static/js/main.f4cbe0ef.js"
+    "static/js/main.c7348bbc.js"
   ]
 }
