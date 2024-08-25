@@ -321,9 +321,19 @@
             "status": 3
         },
         {
-            "name": "Undead Player",
-            "folder": "./voices/UndeadPlayer/",
-            "status": 3
+            "name": "Undead Male Dark",
+            "folder": "./voices/UndeadMaleDark/",
+            "status": 1
+        },
+        {
+            "name": "Undead Male Standard",
+            "folder": "./voices/UndeadMaleStandard/",
+            "status": 1
+        },
+        {
+            "name": "Undead Male Warrior",
+            "folder": "./voices/UndeadMaleWarrior/",
+            "status": 1
         }
     ]
   }

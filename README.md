@@ -4,10 +4,9 @@ This repository has been created to support the spanish (es-ES) voices generatio
 
 You can find Spanish generation examples on the [repository webpage](https://latra.github.io/wow-webvoices-esES) and provide some feedback about the quality.
 
-The Voice Clonning Dataset used is based on World of Warcraft NPC voices, availables on [WoWHead](https://www.wowhead.com/classic/es/sounds), and some additions from Warcraft 3. 
+The Voice Clonning Dataset used is based on World of Warcraft NPC voices, availables on [WoWHead](https://www.wowhead.com/classic/es/sounds), and some additions, mixes, and modifications to improve the results
 
 ### You can download the Voices dataset that I'm using [HERE](https://github.com/latra/wow-webvoices-esES/releases/tag/v0.1.0)
-
 
 
 ## Voice Generation
