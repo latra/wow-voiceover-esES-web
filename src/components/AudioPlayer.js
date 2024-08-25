@@ -1,9 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const AudioPlayer = ({ folder, sampleCount = 3 }) => {
-  const [samples, ] = useState(
-    Array.from({ length: sampleCount }, (_, i) => `${folder}${i + 1}.mp3`)
-  );
+  const [samples, setSamples] = useState([]);
+
+  useEffect(() => {
+    // Generar la lista de archivos .ogg basada en el número de samples disponibles
+    const generatedSamples = Array.from(
+      { length: sampleCount },
+      (_, i) => `${folder}${i + 1}.mp3`
+    );
+    setSamples(generatedSamples);
+  }, [folder, sampleCount]);
+
   const [currentSampleIndex, setCurrentSampleIndex] = useState(0);
 
   const nextSample = () => {
