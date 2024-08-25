@@ -3,6 +3,7 @@ import AudioPlayer from './AudioPlayer';
 import DownvoteModal from './DownvoteModal';
 import { toast } from 'react-toastify';
 import { sendUpvote, sendDownvote } from '../services/apiService';
+import { FaQuestionCircle, FaCheckCircle, FaExclamationTriangle, FaTimesCircle } from 'react-icons/fa';
 
 const VoiceCard = ({ voice }) => {
   const [showModal, setShowModal] = useState(false);
@@ -32,6 +33,23 @@ const VoiceCard = ({ voice }) => {
     }
   };
 
+  // Determinar el icono según el estado
+
+  const renderStatusIcon = () => {
+    switch (voice.status) {
+      case 0:
+        return <FaQuestionCircle className="status-icon unknown" title="Estado desconocido" />;
+      case 1:
+        return <FaCheckCircle className="status-icon good" title="Buen estado" />;
+      case 2:
+        return <FaExclamationTriangle className="status-icon needs-improvement" title="Necesita mejorar" />;
+      case 3:
+        return <FaTimesCircle className="status-icon poor" title="Muy deficiente" />;
+      default:
+        return <FaQuestionCircle className="status-icon unknown" title="Estado desconocido" />;
+    }
+  };
+
   return (
     <div className="voice-card card p-3 mb-3">
       <h3>{voice.name}</h3>
@@ -46,7 +64,9 @@ const VoiceCard = ({ voice }) => {
           <i className="bi bi-flag"></i> Downvote
         </button>
       </div>
-
+      <div className="status-icon-container">
+        {renderStatusIcon()}
+      </div>
       <DownvoteModal
         show={showModal}
         handleClose={() => setShowModal(false)}
