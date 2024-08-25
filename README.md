@@ -6,7 +6,7 @@ You can find Spanish generation examples on the [repository webpage](https://lat
 
 The Voice Clonning Dataset used is based on World of Warcraft NPC voices, availables on [WoWHead](https://www.wowhead.com/classic/es/sounds), and some additions from Warcraft 3. 
 
-### You can download the Voices dataset that I'm using [HERE]()
+### You can download the Voices dataset that I'm using [HERE](https://github.com/latra/wow-webvoices-esES/releases/tag/v0.1.0)
 
 
 
