@@ -6,8 +6,6 @@ You can find Spanish generation examples on the [repository webpage](https://lat
 
 The Voice Clonning Dataset used is based on World of Warcraft NPC voices, availables on [WoWHead](https://www.wowhead.com/classic/es/sounds), and some additions, mixes, and modifications to improve the results
 
-### You can download the Voices dataset that I'm using [HERE](https://github.com/latra/wow-webvoices-esES/releases/tag/v0.1.0)
-
 
 ## Voice Generation
 The english version provided by [mrthinger](https://github.com/mrthinger) and the team that's behind the addon was created by using [ElevenLabs](https://elevenlabs.io/). 
@@ -20,3 +18,17 @@ In this spanish version, since I'm doing it to test other projects that I was wo
 
 ## Other Spanish Versions
 - [ES-MX](https://www.curseforge.com/wow/addons/voiceover-mod-espanol) by [Darkneo](https://www.curseforge.com/members/darkneo/projects)
+
+## Voice Dataset
+You can download the used voice dataset [HERE](https://github.com/latra/wow-webvoices-esES/releases/tag/v0.1.0)
+
+To achieve better audio results, some voices from races that uses a lot of FX has been regularized by adding Human voices. 
+
+GnomeMale audios are manually edited by increasing the pich in 2 semitones to achieve a more nasal voice that xTTS was unable to reach by their own.
+
+## Known Issues
+### Gnomes
+- GnomeMaleZany voice is not working. The NPC that should use it are using GnomeMaleStandard voice #1
+
+### Troll
+- Troll voices are not speaking on the propper dialect (andalusian) #2
